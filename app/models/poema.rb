@@ -1,0 +1,2 @@
+class Poema < ApplicationRecord
+end

@@ -1,0 +1,21 @@
+<p id="notice"><%= notice %></p>
+
+<h1>Poemas</h1>
+
+
+ 
+    <% @poemas.each do |poema| %>
+      <tr>
+        <h3><%= poema.titulo %></h3>
+        <p><%= poema.contenido %></p>
+        <td><%= link_to 'Show', poema %></td>
+        <td><%= link_to 'Edit', edit_poema_path(poema) %></td>
+        <td><%= link_to 'Destroy', poema, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+
+<br>
+<br>
+<%= link_to 'New Poema', new_poema_path %>
