@@ -1,24 +1,4 @@
-# README
+Este es un proyecto para la creacion de una pagina web dinamica construido en rails.
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
-
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+puede verse su funcionamiento en : 
+https://boiling-headland-73528.herokuapp.com/poemas
